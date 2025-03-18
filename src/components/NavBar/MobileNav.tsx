@@ -8,6 +8,7 @@ export default function MobileNav(){
     const handleOpen = () =>{
         setOpen(true)
     }
+    // done
     return(
         <>
         <div className="flex px-5  justify-between items-center w-full h-[80px] bg-red-200">
