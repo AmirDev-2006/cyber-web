@@ -1,4 +1,3 @@
-import { AppBar, Box,Button, Toolbar, Typography , IconButton } from "@mui/material";
 import { UserIcon , ShoppingCartIcon , HeartIcon } from "@heroicons/react/24/outline";
 export default function NavBar(){
     return(
