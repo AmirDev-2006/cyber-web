@@ -12,12 +12,12 @@ export default function MobileNav(){
     return(
         <>
         <div className="flex px-5  justify-between items-center w-full h-[80px] bg-red-200">
-            <h1 className="text-[20px]">Cyber</h1>
+            <h1 className="text-[30px]">Cyber</h1>
             <button onClick={handleOpen}>
-            <Bars3Icon className="w-6 h-6"/>
+            <Bars3Icon className="w-10 h-10"/>
             </button>
             <Drawer open={open} onClose={()=>setOpen(false)}>
-                <div className="w-[200px] px-3 gap-y-2 py-6 flex flex-col h-full bg-white">
+                <div className="w-[250px] px-3 gap-y-2 py-6 flex flex-col h-full bg-white">
                     <div className="w-full flex justify-center">
                     <h1 className="text-[25px]">Cyber</h1>
                     </div>
