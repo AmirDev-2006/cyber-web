@@ -2,7 +2,7 @@ import { UserIcon , ShoppingCartIcon , HeartIcon } from "@heroicons/react/24/out
 export default function NavBar(){
     return(
         <>
-        <div className="w-screen hidden bg-white lg:flex justify-center fixed top-0 right-0 left-0  items-center h-[90px]">
+        <div className="w-screen hidden bg-white lg:flex justify-center  items-center h-[90px]">
             <div className="flex w-11/12 justify-around  items-center px-18">
             <h5 className="text-2xl">Cyber</h5>
             <div>

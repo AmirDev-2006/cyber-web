@@ -12,3 +12,6 @@
 .font-weight{
     font-weight: 20;
 }
+html, body {
+    overflow-x: hidden;
+}
