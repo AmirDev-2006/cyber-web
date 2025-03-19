@@ -17,7 +17,7 @@ export default function MobileNav(){
             <Bars3Icon className="w-16 h-16"/>
             </button>
             <Drawer open={open} onClose={()=>setOpen(false)}>
-                <div className="w-[400px] px-3 gap-y-2 py-6 flex flex-col h-full bg-white">
+                <div className="w-[200px] px-3 gap-y-2 py-6 flex flex-col h-full bg-white">
                     <div className="w-full flex justify-center">
                     <h1 className="text-[65px]">Cyber</h1>
                     </div>
