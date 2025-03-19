@@ -11,10 +11,10 @@ export default function MobileNav(){
     // done
     return(
         <>
-        <div className="flex px-5 lg:hidden justify-between items-center w-full h-[150px]">
-            <h1 className="text-[50px]">Cyber</h1>
+        <div className="flex px-5 lg:hidden justify-between items-center w-full h-[80px]">
+            <h1 className="text-[24px]">Cyber</h1>
             <button onClick={handleOpen}>
-            <Bars3Icon className="w-16 h-16"/>
+            <Bars3Icon className="w-8 h-8"/>
             </button>
             <Drawer open={open} onClose={()=>setOpen(false)}>
                 <div className="w-[200px] px-3 gap-y-2 py-6 flex flex-col h-full bg-white">
