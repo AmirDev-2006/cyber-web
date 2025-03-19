@@ -11,7 +11,7 @@ export default function MobileNav(){
     // done
     return(
         <>
-        <div className="flex px-5 lg:hidden justify-between items-center w-full h-[150px] bg-red-200">
+        <div className="flex px-5 lg:hidden justify-between items-center w-full h-[150px]">
             <h1 className="text-[50px]">Cyber</h1>
             <button onClick={handleOpen}>
             <Bars3Icon className="w-16 h-16"/>
