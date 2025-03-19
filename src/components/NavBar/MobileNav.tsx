@@ -8,10 +8,9 @@ export default function MobileNav(){
     const handleOpen = () =>{
         setOpen(true)
     }
-    // done
     return(
         <>
-        <div className="flex px-5 lg:hidden justify-between items-center w-full h-[80px]">
+        <div className="flex px-5 lg:hidden justify-between items-center w-full h-[88px]">
             <h1 className="text-[24px]">Cyber</h1>
             <button onClick={handleOpen}>
             <Bars3Icon className="w-8 h-8"/>
