@@ -19,14 +19,14 @@ export default function MobileNav(){
             <Drawer open={open} onClose={()=>setOpen(false)}>
                 <div className="w-[200px] px-3 gap-y-2 py-6 flex flex-col h-full bg-white">
                     <div className="w-full flex justify-center">
-                    <h1 className="text-[65px]">Cyber</h1>
+                    <h1 className="text-[40px]">Cyber</h1>
                     </div>
                     <Divider/>
                     <ul className="flex flex-col gap-y-2">
-                    <li className="hover:bg-red-400 transition-colors rounded-sm p-2"><button className=" duration-75 text-[40px] border-black">Home</button></li>
-                    <li className="hover:bg-red-400 transition-colors rounded-sm p-2"><button className=" duration-75 text-[40px] border-black">About</button></li>
-                    <li className="hover:bg-red-400 transition-colors rounded-sm p-2"><button className=" duration-75 text-[40px] border-black" >Contact us</button></li>
-                    <li className="hover:bg-red-400 transition-colors rounded-sm p-2"><button className=" duration-75 text-[40px] border-black">Blog</button></li>
+                    <li className="hover:bg-red-400 transition-colors rounded-sm p-2"><button className=" duration-75 text-[20px] border-black">Home</button></li>
+                    <li className="hover:bg-red-400 transition-colors rounded-sm p-2"><button className=" duration-75 text-[20px] border-black">About</button></li>
+                    <li className="hover:bg-red-400 transition-colors rounded-sm p-2"><button className=" duration-75 text-[20px] border-black" >Contact us</button></li>
+                    <li className="hover:bg-red-400 transition-colors rounded-sm p-2"><button className=" duration-75 text-[20px] border-black">Blog</button></li>
                 </ul>
                 <Divider/>
                 <ul className="flex justify-center items-center gap-x-6">
