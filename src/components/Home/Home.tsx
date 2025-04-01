@@ -11,7 +11,15 @@ import halfMac from "../../assets/img/half Mac.png";
 import FullPS5 from "../../assets/img/FullPS5.png";
 import halfAppleV from "../../assets/img/halfAppleVision.png";
 import halfAirPod from "../../assets/img/halfAirPod.png";
+import useProducts from "../../hooks/useProducts";
+import Category from "../Cart/Category/Category";
+import HomeProduct from "../HomeProduct/HomeProduct";
 export default function Home() {
+  const products = useProducts()
+  {products.map((product)=>{
+    
+  })}
+  
   return (
     <>
       <NavBar />
@@ -171,6 +179,8 @@ export default function Home() {
           <img src={halfMac} alt="" />
         </div>
       </div>
+      <Category/>
+      <HomeProduct/>
     </>
   );
 }

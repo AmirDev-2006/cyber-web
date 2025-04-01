@@ -1,5 +1,6 @@
 import { Bars3Icon } from "@heroicons/react/24/outline"
-import { useState } from "react"
+import { useEffect, useState } from "react"
+import { Axios } from 'axios';
 import { Divider, Drawer } from "@mui/material"
 import { UserIcon , ShoppingCartIcon , HeartIcon } from "@heroicons/react/24/outline";
 import './Mobile.css'
@@ -8,6 +9,9 @@ export default function MobileNav(){
     const handleOpen = () =>{
         setOpen(true)
     }
+    // useEffect(()=>{
+    //     Axios.
+    // },[])
     return(
         <>
         <div className="flex px-5 lg:hidden justify-between items-center w-full h-[88px]">
@@ -22,10 +26,10 @@ export default function MobileNav(){
                     </div>
                     <Divider/>
                     <ul className="flex flex-col gap-y-2">
-                    <li className="hover:bg-red-400 transition-colors rounded-sm p-2"><button className=" duration-75 text-[20px] border-black">Home</button></li>
-                    <li className="hover:bg-red-400 transition-colors rounded-sm p-2"><button className=" duration-75 text-[20px] border-black">About</button></li>
-                    <li className="hover:bg-red-400 transition-colors rounded-sm p-2"><button className=" duration-75 text-[20px] border-black" >Contact us</button></li>
-                    <li className="hover:bg-red-400 transition-colors rounded-sm p-2"><button className=" duration-75 text-[20px] border-black">Blog</button></li>
+                    <li className="hover:bg-purple-600 hover:text-white transition-colors rounded-sm p-2"><button className=" duration-75 text-[20px] border-black">Home</button></li>
+                    <li className="hover:bg-purple-600 hover:text-white transition-colors rounded-sm p-2"><button className=" duration-75 text-[20px] border-black">About</button></li>
+                    <li className="hover:bg-purple-600 hover:text-white transition-colors rounded-sm p-2"><button className=" duration-75 text-[20px] border-black" >Contact us</button></li>
+                    <li className="hover:bg-purple-600 hover:text-white transition-colors rounded-sm p-2"><button className=" duration-75 text-[20px] border-black">Blog</button></li>
                 </ul>
                 <Divider/>
                 <ul className="flex justify-center items-center gap-x-6">
