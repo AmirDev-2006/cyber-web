@@ -13,7 +13,7 @@ import halfAppleV from "../../assets/img/halfAppleVision.png";
 import halfAirPod from "../../assets/img/halfAirPod.png";
 // import useProducts from "../../hooks/useProducts";
 import Category from "../Cart/Category/Category";
-import HomeProduct from "../HomeProduct/HomeProduct";
+// import HomeProduct from "../HomeProduct/HomeProduct";
 export default function Home() {
   // const products = useProducts()
   // {products.map((product)=>{
@@ -180,7 +180,7 @@ export default function Home() {
         </div>
       </div>
       <Category/>
-      <HomeProduct/>
+      {/* <HomeProduct/> */}
     </>
   );
 }
