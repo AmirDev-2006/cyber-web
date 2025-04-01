@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { HeartIcon } from '@heroicons/react/24/solid';
 const LikeButton = () => {
   const [liked, setLiked] = useState(false);

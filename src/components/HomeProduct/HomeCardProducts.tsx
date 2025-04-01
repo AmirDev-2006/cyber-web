@@ -1,5 +1,4 @@
 import LikeButton from "../likeButton/LikeButton"
-import React from "react"
 interface Card{
     img: string
     name : string

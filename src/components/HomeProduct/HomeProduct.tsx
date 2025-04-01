@@ -1,4 +1,4 @@
-import { Tab , Tabs , Box , CustomTab } from "@mui/material";
+import { Tab , Tabs , Box } from "@mui/material";
 import HomeCard from "./HomeCardProducts";
 
 export default function HomeProduct(){

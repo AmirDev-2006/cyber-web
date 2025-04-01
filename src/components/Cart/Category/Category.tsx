@@ -1,22 +1,6 @@
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
 import {ChevronLeftIcon , ChevronRightIcon } from '@heroicons/react/24/outline';
-import { useState } from 'react';
-import MiniCard from './miniCard';
+import MiniCard from './MiniCard';
 export default function Category(){
-    const [tab , setTab] = useState("")
-    const [value , setValue] = useState('')
-    const handleChange = () =>{
-        if(value === "one" ){
-            setTab('one')
-        }
-        else if(value === "two"){
-            setTab("two")
-        }
-        else{
-            setTab('three')
-        }
-    }
     return(
         <>
         <div className="w-full flex h-[624px] md:justify-between  flex-col gap-y-12 py-10 items-center sm:h-[352px] bg-[#FAFAFA] ">
