@@ -1,8 +1,14 @@
 import { Bars3Icon } from "@heroicons/react/24/outline"
+import { useState } from "react"
+
 import { Divider, Drawer } from "@mui/material"
 import { UserIcon , ShoppingCartIcon , HeartIcon } from "@heroicons/react/24/outline";
 import './Mobile.css'
 export default function MobileNav(){
+    const [open , setOpen] = useState(false)
+    const handleOpen = () =>{
+        setOpen(true)
+    }
     return(
         <>
         <div className="flex px-5 lg:hidden justify-between items-center w-full h-[88px]">
