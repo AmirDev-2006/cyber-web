@@ -12,12 +12,18 @@ export default function Category(){
             </div>
             </div>
             <div className='w-5/6 flex  flex-wrap gap-y-5 gap-x-8 justify-center h-[128px] mb-8'>
+            <div className='flex gap-x-8'>
             <MiniCard name='' img=''/>
             <MiniCard name='' img=''/>
+            </div>
+            <div className='flex gap-x-8'>
             <MiniCard name='' img=''/>
             <MiniCard name='' img=''/>
+            </div>
+            <div className='flex gap-x-8'>
             <MiniCard name='' img=''/>
             <MiniCard name='' img=''/>
+            </div>
             </div>
         </div>
         </>
