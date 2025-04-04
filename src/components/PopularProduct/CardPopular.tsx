@@ -9,7 +9,7 @@ interface Card {
 export default function CardPopular(prop:Card){
     return(
         <>
-        <div className={`sm:w-1/4 h-[640px]  flex flex-col items-center justify-center  ${prop.bgcolor}`}>    
+        <div className={`sm:w-1/4 h-[640px] w-[375px]  flex flex-col items-center justify-center  ${prop.bgcolor}`}>    
             <img src={prop.img} alt="" />
             <br />
             <div className={`w-[296px] ${prop.contstyle} h-[208px] flex flex-col items-center`}>
