@@ -14,8 +14,8 @@ import halfAirPod from "../../assets/img/halfAirPod.png";
 // import useProducts from "../../hooks/useProducts";
 import Category from "../Cart/Category/Category";
 import HomeProduct from "../HomeProduct/HomeProduct";
-import { useEffect, useState } from "react";
-import Product from "../Products/Products";
+// import { useEffect, useState } from "react";
+// import Product from "../Products/Products";
 import PopularProduct from "../PopularProduct/PopularProduct";
 export default function Home() {
   // const [products, setProducts] = useState([]);
