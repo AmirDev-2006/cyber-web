@@ -7,7 +7,7 @@ export default function HomeProduct(){
   // }
     return(
     <>
-    <div className="flex flex-wrap mt-12 flex-col items-start  px-40 py-14 h-[1632px]  md:h-[1056px] ">
+    <div className=" hidden sm:flex flex-wrap mt-12 flex-col items-start  px-40 py-14 h-[1632px]  md:h-[1056px] ">
         <div className="md:flex hidden">
     <Box  sx={{ borderBottom: 1, borderColor: 'divider' }}>
   <Tabs aria-label="basic tabs example">
