@@ -18,24 +18,24 @@ import { useEffect, useState } from "react";
 import Product from "../Products/Products";
 import PopularProduct from "../PopularProduct/PopularProduct";
 export default function Home() {
-  const [products, setProducts] = useState([]);
-  useEffect(() => {
-    const url = "https://eshop-parsa.liara.run/products/";
-    fetch(url)
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
-        }
-        return response.json();
-      })
-      .then((data) => {
-        console.log(data[0].images[0]);
-        setProducts(data[0]);
-      })
-      .catch((error) => {
-        console.error("There was an error!", error);
-      });
-  }, []);
+  // const [products, setProducts] = useState([]);
+  // useEffect(() => {
+  //   const url = "https://eshop-parsa.liara.run/products/";
+  //   fetch(url)
+  //     .then((response) => {
+  //       if (!response.ok) {
+  //         throw new Error("Network response was not ok");
+  //       }
+  //       return response.json();
+  //     })
+  //     .then((data) => {
+  //       console.log(data[0].images[0]);
+  //       setProducts(data[0]);
+  //     })
+  //     .catch((error) => {
+  //       console.error("There was an error!", error);
+  //     });
+  // }, []);
   return (
     <>
       <NavBar />

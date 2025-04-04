@@ -1,13 +1,11 @@
-import "swiper/css";
-import 'swiper/css/navigation'
-import "swiper/css/pagination";
+import "swiper/swiper-bundle.css";
 import CardPopular from "./CardPopular";
 import PopularPorduct from '../../assets/img/Popular Product.png'
 import MackBook from '../../assets/img/MackBookPro.png'
 import IpadPro from '../../assets/img/Ipad Pro.png'
 import SamsungGalaxy from '../../assets/img/Samsung Galaxy.png'
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
+import { Autoplay, Pagination , Navigation } from "swiper/modules";
 export default function PopularProduct(){
     return(
         <>
@@ -19,7 +17,7 @@ export default function PopularProduct(){
         </div>
         <div className="h-[732px] md:hidden w-[475px]">
       <Swiper
-        modules={[Autoplay, Pagination]}
+        modules={[Autoplay, Pagination , Navigation]}
         spaceBetween={20}
         slidesPerView={1}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
