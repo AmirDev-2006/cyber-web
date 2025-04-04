@@ -13,13 +13,28 @@ import halfAppleV from "../../assets/img/halfAppleVision.png";
 import halfAirPod from "../../assets/img/halfAirPod.png";
 // import useProducts from "../../hooks/useProducts";
 import Category from "../Cart/Category/Category";
-// import HomeProduct from "../HomeProduct/HomeProduct";
+import HomeProduct from "../HomeProduct/HomeProduct";
+import { useEffect, useState } from "react";
+import Product from "../Products/Products";
 export default function Home() {
-  // const products = useProducts()
-  // {products.map((product)=>{
-    
-  // })}
-  
+  const [products, setProducts] = useState([]);
+  useEffect(() => {
+    const url = "https://eshop-parsa.liara.run/products/";
+    fetch(url)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        return response.json();
+      })
+      .then((data) => {
+        console.log(data[0].images[0]);
+        setProducts(data[0]);
+      })
+      .catch((error) => {
+        console.error("There was an error!", error);
+      });
+  }, []);
   return (
     <>
       <NavBar />
@@ -179,8 +194,8 @@ export default function Home() {
           <img src={halfMac} alt="" />
         </div>
       </div>
-      <Category/>
-      {/* <HomeProduct/> */}
+      <Category />
+      <HomeProduct />
     </>
   );
 }
