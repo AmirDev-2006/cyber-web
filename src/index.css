@@ -15,3 +15,17 @@
 html, body {
     overflow-x: hidden;
 }
+.bigsummerDes{
+    background-image: url('./assets/img/Big summer Sell Background Dekstop.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+.bigsummerphone{
+    background-image: url('./assets/img/bigsummer phone.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.bgblack{
+    background-color: rgba(0, 0, 0 , 0.8);
+}

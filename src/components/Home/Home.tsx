@@ -17,6 +17,8 @@ import HomeProduct from "../HomeProduct/HomeProduct";
 // import { useEffect, useState } from "react";
 // import Product from "../Products/Products";
 import PopularProduct from "../PopularProduct/PopularProduct";
+import Discount from "../DiscountProduct/Discount";
+import BigSummerSell from "../BigSummer/BigSummerSell";
 export default function Home() {
   // const [products, setProducts] = useState([]);
   // useEffect(() => {
@@ -198,6 +200,8 @@ export default function Home() {
       <Category />
       <HomeProduct />
       <PopularProduct/>
+      <Discount/>
+      <BigSummerSell/>
     </>
   );
 }
