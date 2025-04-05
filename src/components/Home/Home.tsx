@@ -19,6 +19,7 @@ import HomeProduct from "../HomeProduct/HomeProduct";
 import PopularProduct from "../PopularProduct/PopularProduct";
 import Discount from "../DiscountProduct/Discount";
 import BigSummerSell from "../BigSummer/BigSummerSell";
+import Footer from "../Footer/Footer";
 export default function Home() {
   // const [products, setProducts] = useState([]);
   // useEffect(() => {
@@ -202,6 +203,7 @@ export default function Home() {
       <PopularProduct/>
       <Discount/>
       <BigSummerSell/>
+      <Footer/>
     </>
   );
 }
